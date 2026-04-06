@@ -4,7 +4,7 @@
 ![AWS](https://img.shields.io/badge/Cloud-AWS%20EC2-orange?style=flat-square&logo=amazonaws)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
-> A Red Hat Enterprise Linux 10 environment running on AWS EC2, used as a hands-on cloud and DevOps learning lab.
+> A Red Hat Enterprise Linux 10 environment running on AWS EC2, used as a hands-on Linux and cloud engineering learning lab. All topics are documented with real commands run on a live system.
 
 ---
 
@@ -20,13 +20,26 @@
 
 ---
 
-## ✅ What's Been Configured
+## 📁 Repository Structure
+
+| Folder | Topic |
+|--------|-------|
+| `monitoring/` | System health, disk, memory, CPU monitoring |
+| `services/` | systemctl, service management |
+| `networking/` | TCP/IP, SSH, DNS, firewall basics |
+| `logs/` | journalctl, log reading and analysis |
+| `bash/` | Bash scripting and automation |
+| `configs/` | File permissions, config management |
+
+---
+
+## ✅ Environment Setup
 
 - EC2 instance provisioned and secured with SSH key pair
 - Swap memory configured (1GB) for stability
 - AWS CLI v2 installed and configured
 - IAM user created with least privilege access
-- Billing alerts set up
+- Billing alerts configured
 
 ---
 
@@ -37,7 +50,7 @@
 | RHEL 10 | Primary operating system |
 | AWS EC2 | Cloud compute instance |
 | AWS CLI | Cloud infrastructure management |
-| Bash | Shell scripting |
+| Bash | Shell scripting and automation |
 | Git | Version control |
 
 ---
