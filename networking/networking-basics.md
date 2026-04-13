@@ -60,7 +60,8 @@ location: https://www.google.com/
 
 ---
 
-## Key Concepts
+## Key Concepts:
+
 
 ### Public vs Private IP
 
