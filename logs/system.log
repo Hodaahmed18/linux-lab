@@ -1,0 +1,20 @@
+==== Run at Tue Apr 14 14:23:18 UTC 2026 ====
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  9.8G  3.9G  5.9G  40% /
+devtmpfs        430M     0  430M   0% /dev
+tmpfs           455M  100K  455M   1% /dev/shm
+efivarfs        128K  3.1K  125K   3% /sys/firmware/efi/efivars
+tmpfs           182M   18M  165M  10% /run
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/nvme0n1p1  200M  9.0M  191M   5% /boot/efi
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+tmpfs            91M  4.0K   91M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ec2-user  618343  0.1  0.8  17476  7448 ?        S    13:33   0:03 sshd-session: ec2-user@pts/0
+root         767  0.0  2.6 258900 24688 ?        Ssl  Feb01  16:43 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root      617824  0.0  0.0      0     0 ?        I    12:07   0:00 [kworker/u8:1-events_unbound]
+root        1224  0.0  1.4 195556 13536 ?        Ssl  Feb01   6:15 /usr/sbin/rsyslogd -n
+root      618037  0.0  0.0      0     0 ?        I    12:40   0:00 [kworker/u8:0-writeback]
+ 14:23:18 up 71 days, 22:42,  2 users,  load average: 0.00, 0.00, 0.00
+
