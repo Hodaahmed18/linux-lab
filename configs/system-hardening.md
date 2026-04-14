@@ -134,16 +134,4 @@ This system was analyzed and hardened by:
 
 ---
 
-````
-
----
-
-## ✅ Commit it
-
-```bash
-git add .
-git commit -m "Add Linux system hardening guide with SSH and firewall security"
-git push
-````
-
 --
