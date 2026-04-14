@@ -2,11 +2,6 @@
 
 # Script for monitoring RHEL Systems
 
-
-
-
-#!/bin/bash
-
 echo "==== System Health Check ===="
 echo "Date: $(date)"
 echo ""
